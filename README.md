@@ -8,6 +8,9 @@ Public method or property of a class is accesible from any other other class or 
 Private method or property is accessed only from the class it was defined in or via an instance of a class where it was defined
 Protected method or property is accesible only from the class itself (it will become a parent class)
 but also from the children (derived) classes (Class Subscriber extends User). In the children class they might not be re-defined
+
+Another good example is http://stackoverflow.com/questions/4361553/php-public-private-protected
+
 This is another example I found on internet and which can demonstrate the static keyword:
 Here is the link http://stackoverflow.com/questions/4280001/protected-static-member-variables
 class A {
