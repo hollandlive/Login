@@ -7,16 +7,17 @@
 * Date: 22.02.2016
 * Version 1.0
 * Used Technologies: PHP <!--HTML5/CSS3/Bootstrap3.5/JS/JQuery-->/
+* I haven't finished it...
 */
 
 include_once('connection.class.php');
 
 class User {
 
-	protected $_db;
+  protected $_db;
 
-	public $username;
-	public $password;
+  public $username;
+  public $password;
 
 	public function __construct() {
 		$this->_db = new Connection();
